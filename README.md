@@ -10,7 +10,7 @@
 
 ## Status do projeto 🔧
 <h4 align="center"> 
-	🚧   em processo...🚀  🚧 <br>
+	🚧   em processo..🚀  🚧 <br>
 </h4>
 
 ---
