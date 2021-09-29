@@ -38,7 +38,7 @@ router.post('/', function (req, res, next) {
         }));
   });
 
-
+// PUT alterar um recurso existente
   router.put('/:id', function (req, res, next) {
     const cliente_id = req.params.id;
     const { nome, cpf} = req.body;
