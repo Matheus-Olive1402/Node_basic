@@ -37,4 +37,27 @@ router.post('/', function (req, res, next) {
             error: error
         }));
   });
+
+
+  router.put('/:id', function (req, res, next) {
+    const cliente_id = req.params.id;
+    const { nome, cpf} = req.body;
+    console.log(req.params);
+    model.clientes.update({
+            nome: nome,
+            cpf: cpf
+        }, {
+            where: {
+                id: cliente_id
+            }
+        })
+        .then(clientes => res.status(201).json({
+            error: false,
+            message: 'Cliente atualizado.'
+        }))
+        .catch(error => res.json({
+            error: true,
+            error: error
+        }));
+  });
 module.exports = router;
