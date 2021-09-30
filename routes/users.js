@@ -60,4 +60,19 @@ router.post('/', function (req, res, next) {
             error: error
         }));
   });
+
+  //DELETE um recurso existente
+  router.delete('/:id', function(req, res, next){
+      const cliente_id = req.params.id;
+      model.clientes.destroy({where:{
+          id:cliente_id
+      }}).then(status=>res.status(201).json({
+          error:false,
+          message: 'Cliente deletado com sucesso'
+      })).catch(error=>res.json({
+          error:true,
+          error:error
+      }));
+  });
+
 module.exports = router;
