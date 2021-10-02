@@ -68,7 +68,7 @@ router.post('/', function (req, res, next) {
           id:cliente_id
       }}).then(status=>res.status(201).json({
           error:false,
-          message: 'Cliente deletado com sucesso'
+          message: 'Cliente deletado com sucesso.'
       })).catch(error=>res.json({
           error:true,
           error:error
