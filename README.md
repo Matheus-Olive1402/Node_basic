@@ -28,9 +28,7 @@
 <br>
 
 ## Features
-- [x] Cadastro de usuário com autenticação google.
-- [x] logar em room's de outros usuários e o seu próprio.
-- [x] Responsividade.
+...
 
 ---
 <br>
