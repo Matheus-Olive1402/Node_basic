@@ -15,7 +15,7 @@
 
 
 ## Sobre o projeto 👨‍💻 
-<h4> .... </h4>
+<h4> Programa de servidor back-end com ORM de nodeJS para MySQL, via adição, edição, deletar e consulta com requisição por protocolos http.  </h4>
 <br>
 
 
@@ -28,7 +28,8 @@
 <br>
 
 ## Features
-...
+- [x] CRUD via requisição de http.
+- [x] Integração Back-end com banco de dados MySQL.
 
 ---
 <br>
@@ -50,6 +51,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [MySQL](https://https://www.mysql.com)
 - [Express](https://expressjs.com/pt-br/)
+- [Sequelize](https://sequelize.org)
 
 ---
 <br>
