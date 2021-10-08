@@ -36,11 +36,59 @@
 
 ## Como executar o projeto 🚀
 
-...
+Este projeto é apenas Backend, a interface deve usar Postman ou outro aplicativo de plataforma de API. Outro ponto você precisa de um banco de dados local ou em servidor separador.
 
 ### Pré-requisitos
 
-...
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e [MySQL workbench](https://dev.mysql.com/downloads/workbench/) (desde que seja local)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+Projeto
+
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:https://github.com/Matheus-Olive1402/Node_basic
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Node_basic
+
+# Instale as dependências
+$ npm install
+
+# Executar
+$ node app.js
+
+# A aplicação será aberta na porta:local (pode variar de maquina para maquina)
+
+```
+
+Banco de dados (MySQL)
+```bash
+
+# Download (escolher o sistema operacional e donwload)
+https://dev.mysql.com/downloads/workbench/
+
+# Instalação padrão (em caso de duvida link abaixo para auxiliar)
+https://www.youtube.com/watch?v=fmerTu7dWk8
+
+# no projeto config>config.json
+Nos obtejos 'development','test' e 'production'.
+
+configurar:
+
+"username":  "NOME DO USUARIO DO SEU BD",
+"password":  "SENHA DO BD",
+"database":  "NOME DO BD",
+"host":  "ENDEREÇO",
+"port":  PORTA,
+"dialect":  "mysql"
+
+salvar tudo
+```
+
+
 ---
 <br>
 
