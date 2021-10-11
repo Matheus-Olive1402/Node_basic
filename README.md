@@ -85,7 +85,7 @@ configurar:
 "port":  PORTA,
 "dialect":  "mysql"
 
-salvar tudo
+salvar tudo.
 ```
 
 
